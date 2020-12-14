@@ -23,5 +23,6 @@ namespace RentalKendaraan_004.Models
 
         public int? IdGender { get; set; }
         public object IdGenderNavigation { get; internal set; }
+        public IEnumerable<Peminjaman> Peminjaman { get; internal set; }
     }
 }

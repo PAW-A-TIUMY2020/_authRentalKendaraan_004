@@ -10,5 +10,7 @@ namespace RentalKendaraan_004.Models
         public int? IdPeminjaman { get; set; }
         public int? IdKondisi { get; set; }
         public int? Denda { get; set; }
+        public object IdKondisiNavigation { get; internal set; }
+        public object IdPeminjamanNavigation { get; internal set; }
     }
 }

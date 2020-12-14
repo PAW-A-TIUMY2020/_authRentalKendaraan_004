@@ -7,5 +7,6 @@ namespace RentalKendaraan_004.Models
     {
         public int IdJaminan { get; set; }
         public string NamaJaminan { get; set; }
+        public IEnumerable<Peminjaman> Peminjaman { get; internal set; }
     }
 }

@@ -13,5 +13,6 @@ namespace RentalKendaraan_004.Models
         public string NoStnk { get; set; }
         public int? IdJenisKendaraan { get; set; }
         public string Ketersediaan { get; set; }
+        public IEnumerable<Peminjaman> Peminjaman { get; internal set; }
     }
 }
